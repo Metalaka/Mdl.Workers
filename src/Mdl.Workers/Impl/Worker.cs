@@ -3,7 +3,7 @@
 using System;
 using System.Threading;
 
-public class Worker : IWorkerRunnable, IWorkerPausable
+internal sealed class Worker : IWorkerRunnable, IWorkerPausable
 {
     private const int TimeoutZero = 0;
 
